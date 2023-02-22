@@ -73,4 +73,5 @@
 - [https://git-scm.com/docs](https://git-scm.com/docs)
 - [https://cbea.ms/git-commit/](https://cbea.ms/git-commit/)
 - [https://meetup.nhncloud.com/posts/106](https://meetup.nhncloud.com/posts/106)
+- [https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
 - [https://jane-aeiou.tistory.com/93](https://jane-aeiou.tistory.com/93)
