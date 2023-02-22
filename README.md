@@ -6,9 +6,9 @@
 
 - body(본문, 생략 가능)
 
-- resolves: #issueNo (해결한 이슈, 생략 가능)
+- Resolves: #issueNo (해결한 이슈, 생략 가능)
 
-- see also : #issueNo (참고 이슈, 생략 가능)
+- See also : #issueNo (참고 이슈, 생략 가능)
 
 ## Type
 
