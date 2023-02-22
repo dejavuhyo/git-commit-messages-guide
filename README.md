@@ -21,10 +21,33 @@
 
 ## 커밋 메시지 구조
 
+### 구조
+
+```text
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
 - type(타입): title(제목)
 - body(본문, 생략 가능)
 - Resolves: #issueNo (해결한 이슈, 생략 가능)
 - See also : #issueNo (참고 이슈, 생략 가능)
+
+### 전체 커밋 예
+
+```text
+fix: fix foo to enable bar
+
+This fixes the broken behavior of the component by doing xyz. 
+
+BREAKING CHANGE
+Before this fix foo wasn't enabled at all, behavior changes from <old> to <new>
+
+Closes D2IQ-12345
+```
 
 ## 타입
 
