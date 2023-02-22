@@ -61,3 +61,8 @@
 |-----|-----|
 | 해결 | Closes(종료), Fixes(수정), Resolves(해결) |
 | 참고 | Ref(참고), Related to(관련), See also(참고) |
+
+## [출처 및 참고]
+- [https://cbea.ms/git-commit/](https://cbea.ms/git-commit/)
+- [https://meetup.nhncloud.com/posts/106](https://meetup.nhncloud.com/posts/106)
+- [https://jane-aeiou.tistory.com/93](https://jane-aeiou.tistory.com/93)
