@@ -1,21 +1,29 @@
-# 커밋 메시지(Commit Messages) 가이드
+# 깃 커밋 메시지(Git Commit Messages) 가이드
 
 ## 좋은 커밋 메시지가 중요한 이유
-왜 커밋 메시지를 잘 쓰기 위해 노력해야 하는가? 이유는 서로 다를 수 있지만, 잘 쓰인 커밋 메시지가 더 유익하다는 사실에는 많은 프로그래머들이 동의할 것으로 여겨진다. 그 중 대표적인 3가지를 꼽아보면 다음과 같다.
+커밋 메시지를 잘 쓰기 위해 노력해야 하는 이유는 서로 다를 수 있지만, 잘 쓰인 커밋 메시지가 더 유익하다는 사실에는 많은 프로그래머들이 동의할 것이다. 그 중 대표적인 3가지를 꼽아보면 다음과 같다.
 
-- 더 좋은 커밋 로그 가독성
-- 더 나은 협업과 리뷰 프로세스
-- 더 쉬운 코드 유지보수
+* 더 좋은 커밋 로그 가독성
+
+* 더 나은 협업과 리뷰 프로세스
+
+* 더 쉬운 코드 유지보수
 
 ## 좋은 커밋 메시지의 7가지 규칙
 
-- 제목과 본문을 한 줄 띄워 분리
-- 제목은 영문 기준 50자로 제한
-- 제목과 첫글자를 대문자로
-- 제목 끝에 `.` 금지
-- 제목은 `명령조` 사용
-- 본문은 영문 기준 72자로 줄 바꿈
-- 본문은 `무엇을` 보다 `무엇을`, `왜`를 작성
+* 제목과 본문을 한 줄 띄워 분리
+
+* 제목은 영문 기준 50자로 제한
+
+* 제목과 첫글자를 대문자로
+
+* 제목 끝에 `.` 금지
+
+* 제목은 `명령조` 사용
+
+* 본문은 영문 기준 72자로 줄 바꿈
+
+* 본문은 `무엇을` 보다 `무엇을`, `왜`를 작성
 
 ## 커밋 메시지 구조
 커밋 메시지의 기본적인 구조는 제목(Subject), 본문(Body), 꼬리말(Footer) 3개의 구역으로 나누며, 각 구역은 한 칸의 빈 줄로 구분한다.
@@ -53,12 +61,12 @@
 | remove | 파일을 삭제만 한 경우 |
 
 ## 본문(Body)
-모든 커밋이 본문을 보증할 만큼 복잡한 것은 아니므로 선택 사항이며 커밋에 약간의 설명과 컨텍스트가 필요한 경우에만 사용됩니다. `어떻게(how)`가 아니라 약속의 `무엇(what)`과 `왜(why)`를 설명하기 위해 본문을 사용한다.
+모든 커밋이 본문을 보증할 만큼 복잡한 것은 아니므로 선택 사항이며 커밋에 약간의 설명과 컨텍스트가 필요한 경우에만 사용된다. `어떻게(how)`가 아니라 약속의 `무엇(what)`과 `왜(why)`를 설명하기 위해 본문을 사용한다.
 
 본문을 작성할 때 제목과 본문 사이에 공백 줄이 필요하며 각 줄의 길이를 72자 이내로 제한해야 한다.
 
 ## 꼬리말(Footer)
-바닥글은 선택 사항이며 이슈 추적 ID를 참조하는 데 사용된다.
+바닥글은 선택 사항이며 이슈 추적 ID를 참조하는데 사용된다.
 
 ### 라벨의 종류
 
@@ -71,10 +79,13 @@
 
 ## 전체 커밋 예시
 
-- type(타입): subject(제목)
-- body(본문)
-- Resolves: #issueNo (해결한 이슈)
-- See also: #issueNo (참고 이슈)
+* type(타입): subject(제목)
+
+* body(본문)
+
+* Resolves: #issueNo (해결한 이슈)
+
+* See also: #issueNo (참고 이슈)
 
 ```text
 feat: Summarize changes in around 50 characters or less
@@ -110,23 +121,30 @@ feat: Summarize changes in around 50 characters or less
 
 ### Good
 
-- feat: improve performance with lazy load implementation for images
-- chore: update npm dependency to latest version
-- Fix bug preventing users from submitting the subscribe form
-- Update incorrect client phone number within footer body per client request
+* feat: improve performance with lazy load implementation for images
+
+* chore: update npm dependency to latest version
+
+* Fix bug preventing users from submitting the subscribe form
+
+* Update incorrect client phone number within footer body per client request
 
 ### Bad
 
-- fixed bug on landing page
-- Changed style
-- oops
-- I think I fixed it this time?
-- empty commit messages
+* fixed bug on landing page
+
+* Changed style
+
+* oops
+
+* I think I fixed it this time?
+
+* empty commit messages
 
 ## [출처 및 참고]
-- [https://git-scm.com/docs](https://git-scm.com/docs)
-- [https://cbea.ms/git-commit/](https://cbea.ms/git-commit/)
-- [https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/)
-- [https://meetup.nhncloud.com/posts/106](https://meetup.nhncloud.com/posts/106)
-- [https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
-- [https://jane-aeiou.tistory.com/93](https://jane-aeiou.tistory.com/93)
+* [https://git-scm.com/docs](https://git-scm.com/docs)
+* [https://cbea.ms/git-commit/](https://cbea.ms/git-commit/)
+* [https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/)
+* [https://meetup.nhncloud.com/posts/106](https://meetup.nhncloud.com/posts/106)
+* [https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+* [https://jane-aeiou.tistory.com/93](https://jane-aeiou.tistory.com/93)
